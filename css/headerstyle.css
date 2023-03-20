@@ -10,6 +10,14 @@ header {
 
 
 }
+.hamburger-menu{
+    display: none;
+}
+.hamburgericon {
+    width: 45px;
+    height: auto;
+    display: none;
+}
 
 header button {
     color: white;
@@ -86,8 +94,7 @@ nav a:hover {
 
     .hamburger-menu .mobilenav nav {
         background-color: aliceblue;
-        display: none;
-
+      
     }
 
     .hamburger-menu .mobilenav {
@@ -96,7 +103,7 @@ nav a:hover {
         margin: 0;
         position: absolute;
         display: flex;
-        width: 40vw;
+       
         right: 150px;
         flex-direction: column;
         height: 10em;
@@ -105,7 +112,6 @@ nav a:hover {
 
     }
 
-    .hamburger-menu .mobilenav nav a {}
 
     header .desktopnav nav {
         display: none;
