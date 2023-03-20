@@ -1,0 +1,31 @@
+
+
+
+footer {
+    margin: auto;
+    padding: 1vw 1vh;
+    background-color: black;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+footer nav ul li {
+    list-style-type: none;
+
+    padding: 1vw;
+}
+
+footer a {
+    color: white;
+    font-weight: 200;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+header {
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+
+
+}
+
+header button {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 108, 108);
+    padding: 5px;
+    margin: 1px
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 3vw;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.hero {
+    color: rgb(255, 255, 255);
+    height: 60vh;
+    max-width: 100%;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.8)), url(../images/Hero\ Image\ .jpg);
+    background-size: contain;
+    background-position: center;
+
+}
+
+.hero article {
+    float: left 30px;
+
+    margin: auto;
+    width: 100vw;
+    padding: auto 40px;
+}
+
+.hero h1 {
+
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 5em;
+    text-transform: capitalize;
+}
+
+
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        width: 45px;
+        height: auto;
+
+    }
+
+    .hamburger-menu .mobilenav nav {
+        background-color: aliceblue;
+        display: none;
+
+    }
+
+    .hamburger-menu .mobilenav {
+
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        display: flex;
+        width: 40vw;
+        right: 150px;
+        flex-direction: column;
+        height: 10em;
+
+
+
+    }
+
+    .hamburger-menu .mobilenav nav a {}
+
+    header .desktopnav nav {
+        display: none;
+    }
+
+
+}
